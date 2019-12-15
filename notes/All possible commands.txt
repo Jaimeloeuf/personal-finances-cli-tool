@@ -1,0 +1,21 @@
+All dates need to be in the format of DDMMYY. E.g. 290418 means "Apr 29th 2018". Year is assumed to be 20XX, where XX is anything from 00 - 99;
+// Should I create a feature to prevent recording of any future entries / entries yet to happen. example if it is 290418 now, you cannot write entry as 300418.
+
+// Allow user to pipeline or combine commands? such as "view log all & view sum all"
+
+view log all
+view log X	--> where X is a date
+view log date 200418 to date 290418
+
+view sum all	--> means view summary
+view sum X	--> where X is a date
+view sum date 200418 to date 290418
+
+
+edit log
+
+
+
+All entries/logs have UIDs, where the UID is DATE_"Transaction ID of the day"
+e.g. 290418_12 means the 12th Transaction of Apr 29th 2018.
+The Transaction ID will be automatically updated when a new transaction/entry/log is inserted

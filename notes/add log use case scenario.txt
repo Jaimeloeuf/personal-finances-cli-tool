@@ -1,0 +1,8 @@
+add log
+timestamp: 
+type: 
+Amnt:
+Remarks:
+
+
+Prompt for confirmation while showing log preview with log ID
